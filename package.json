@@ -1,0 +1,21 @@
+{
+  "name": "pluralsight-class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource": "^3.3.2",
+    "apollo-datasource-rest": "^3.7.0",
+    "apollo-server": "^3.10.4",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.20"
+  }
+}
