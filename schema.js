@@ -34,7 +34,8 @@ const typeDefs = () => (gql`
         day: String,
         format: String,
         track: String @deprecated(reason: "Too many sessions do not fit into a single track, we will be migrating to a tag based system in the future..."),
-        level: String
+        level: String,
+        speakers: [Speaker]
     }
 
 `)
